@@ -51,3 +51,22 @@ h2 + p {
     text-transform: uppercase;
     order: -1;
 }
+
+.fine-print {
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+}
+
+strong {
+    font-weight: 900;
+}
+
+/*==============
+intro section
+================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
