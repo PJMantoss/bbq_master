@@ -130,3 +130,35 @@ input {
     background: linear-gradient(to left, #ff713b, #ffa51d);
     color: #fff;
 }
+
+/*==============
+ media-queries
+================*/
+
+@media(min-width: 600px){
+    body {
+        display: flex;
+        font-size: 1.125rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2,
+    h1 + p{
+        font-size: 1.75rem;
+    }
+
+    .intro,
+    .main-content {
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
