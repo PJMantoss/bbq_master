@@ -23,3 +23,16 @@ h1 {
     color: #fff;
     margin: 0;
 }
+
+h1 + p {
+    font-size: 1.3125rem;
+    font-weight: 900;
+    color: #F18119;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0;
+}
