@@ -46,6 +46,10 @@ h2 {
     padding: 1em 0;
 }
 
+.register {
+    margin-bottom: 20px;
+}
+
 h2 + p {
     font-weight: 900;
     color: #F18119;
@@ -157,10 +161,6 @@ input {
     h2,
     h1 + p{
         font-size: 1.75rem;
-    }
-
-    .register {
-        margin-bottom: 20px;
     }
 
     .intro,
