@@ -7,16 +7,18 @@ emailCollector.addEventListener('submit', e => {
     //Use FormData to get user's name and email
     let ourFormData = new FormData(e.target);
 
-    let userFirtName = ourFormData.get("first name"),
-        userEmail = ourFormData.get("email");
+    let userFirstName = ourFormData.get("first name");
+    let userEmail = ourFormData.get("email");
 
     let updatedHtmlContent = `
          <h2>Congratulations ${userFirstName}!</h2>
+
          <p>You are on your to becoming a BBQ Master!</p>
+
          <p class="fine-print">You will get weekly BBQ tips sent to: ${userEmail}</p>
     `;
 
     let updatedContentDiv = document.getElementById("mainContent");
 
-    updatedContentDiv.textContent = updatedHtmlContent;
+    updatedContentDiv.innerHTML = updatedHtmlContent;
 })
