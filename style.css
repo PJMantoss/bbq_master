@@ -8,7 +8,6 @@
 body {
     box-sizing: border-box;
     text-align: center;
-    background: #404040;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
 }
@@ -159,6 +158,6 @@ input {
     .main-content {
         display: flex;
         flex-direction: column;
-        
+        justify-content: center;
     }
 }
