@@ -68,6 +68,7 @@ h2 + p {
 .fine-print {
     font-size: 0.625rem;
     letter-spacing: 1px;
+    margin-top: 10px;
 }
 
 strong {
@@ -124,7 +125,7 @@ input {
     font-family: inherit;
     text-align: inherit;
     margin-bottom: .75em;
-    padding: .25em;
+    padding: .4em;
     border: 1px solid #404040;
 }
 
