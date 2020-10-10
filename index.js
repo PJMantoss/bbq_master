@@ -9,4 +9,10 @@ emailCollector.addEventListener('submit', e => {
 
     let userFirtName = ourFormData.get("first name"),
         userEmail = ourFormData.get("email");
+
+    let updatedHtmlContent = `
+         <h2>Congratulations ${userFirstName}!</h2>
+         <p>You are on your to becoming a BBQ Master!</p>
+         <p class="fine-print">You will get weekly BBQ tips sent to: ${userEmail}</p>
+    `
 })
