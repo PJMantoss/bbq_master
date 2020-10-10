@@ -125,3 +125,8 @@ input {
     border: 0;
     cursor: pointer;
 }
+
+.btn-primary {
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    color: #fff;
+}
