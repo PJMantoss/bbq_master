@@ -76,3 +76,26 @@ intro section
     background-size: cover;
     background-position: center;
 }
+
+/*==============
+ main-content section
+================*/
+
+.main-content {
+    padding: 1em 2em;
+}
+
+.intro > *,
+.main-content > *{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*==============
+ main-content section
+================*/
+
+form {
+    width: 80%;
+}
