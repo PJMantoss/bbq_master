@@ -14,5 +14,9 @@ emailCollector.addEventListener('submit', e => {
          <h2>Congratulations ${userFirstName}!</h2>
          <p>You are on your to becoming a BBQ Master!</p>
          <p class="fine-print">You will get weekly BBQ tips sent to: ${userEmail}</p>
-    `
+    `;
+
+    let updatedContentDiv = document.getElementById("mainContent");
+
+    updatedContentDiv.textContent = updatedHtmlContent;
 })
