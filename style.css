@@ -68,5 +68,11 @@ intro section
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    min-height: 50vh;
+    padding: 0 .5em 2em;
+    background-image: url(./images/dark-ribs.jpg);
+    background-color: #404040;
+    background-size: cover;
+    background-position: center;
 }
